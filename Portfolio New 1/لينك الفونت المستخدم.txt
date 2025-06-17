@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500&display=swap");
+
+
+اسم الفونت 
+    font-family: "Inter",sans-serif;
+
+    font-family: "DM Sans", sans-serif;
+
+بالتوفيق 
