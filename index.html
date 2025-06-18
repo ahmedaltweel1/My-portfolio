@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Protoflio | Hssain</title>
-    <link rel="icon" href="/Portfolio New 1/img/logo_icon.png">
+    <link rel="icon" href="Portfolio New 1/img/logo_icon.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
@@ -18,27 +18,33 @@
 
     <header>
         <nav class="container">
-            <a href="#" class="logo"><img src="/Portfolio New 1/img/logo.png" alt=""></a>
+            <a href="#" class="logo"><img src="Portfolio New 1/img/logo.png" alt=""></a>
 
-            <div class="links">
-                <a href="" class="active">Home</a>
-                <a href="">About</a>
-                <a href="">Services</a>
-                <a href="">Projects</a>
-                <a href="">Contant</a>
+            <div class="links" id="links">
+                <span class="close_menu" onclick="open_close_menu()"><i class="fa-solid fa-xmark"></i></span>
+
+
+                <a href="" class='logo'><img src="Portfolio New 1/img/logo.png" alt=""></a>
+                <a href="#Home" class="active">Home</a>
+                <a href="#About">About</a>
+                <a href="#Services">Services</a>
+                <a href="#Projects">Projects</a>
+                <a href="#Contant">Contant</a>
             </div>
 
             <div class="icons">
-                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/AhmedAltweel" target="_blank"><i
+                        class="fa-brands fa-facebook-f"></i></a>
                 <a href=""><i class="fa-brands fa-x-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagramcom/_v_al_l" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <span class="icon_menu" onclick="open_close_menu()"><i class="fa-solid fa-bars"></i></span>
             </div>
 
 
         </nav>
     </header>
 
-    <div class="hero">
+    <div class="hero" id="Home">
         <div class="container">
             <div class="div_Text">
                 <h4>Hello iam</h4>
@@ -50,19 +56,20 @@
 
                 <div class="btns">
                     <a href="" class="btn">hire me</a>
-                    <a href="" class="btn_no_bg"> Download CV</a>
+                    <a href="Portfolio New 1/img/سيرة ذاتية مندوب مبيعات طبية خضراء_20250619_013927_٠٠٠٠.png"
+                        class="btn_no_bg" download> Download CV</a>
                 </div>
 
 
             </div>
             <div class="div_img">
-                <img src="/Portfolio New 1/img/home.png" alt="" class="person">
+                <img src="/Portfolio New 1/img/DSC_3816_copy-removebg-preview.png" alt="" class="person">
                 <img src="/Portfolio New 1/img/bg_img_home.png" alt="" class="bg_img">
             </div>
         </div>
     </div>
 
-    <section class="about">
+    <section class="about" id="About">
         <div class="container">
             <div class="div_text">
                 <h5>About me</h5>
@@ -80,16 +87,17 @@
                     <li><i class="fa-solid fa-check"></i>Digital Marketers</li>
                     <li><i class="fa-solid fa-check"></i> Product Managers</li>
                 </ul>
-                <a href="#" class="btn">Download CV</a>
+                <a href="Portfolio New 1/img/سيرة ذاتية مندوب مبيعات طبية خضراء_20250619_013927_٠٠٠٠.png" download
+                    class="btn">Download CV</a>
             </div>
 
             <div class="div_img">
-                <img src="/Portfolio New 1/img/about.jpg" alt="">
+                <img src="/Portfolio New 1/img/DSC_3816 copy.jpg" alt="">
             </div>
         </div>
     </section>
 
-    <section class="services">
+    <section class="services" id="Services">
         <div class="container">
             <div class="top_section">
                 <h2>Our <span>Services</span></h2>
@@ -121,7 +129,7 @@
     </section>
 
 
-    <section class="projects">
+    <section class="projects" id="Projects">
         <div class="container">
             <div class="top_section">
                 <h2>Explore my Popular <span>Projects</span></h2>
@@ -191,34 +199,37 @@
 
 
 
-    <section class="contact" id="contact">
+    <section class="contact" id="Contact">
         <div class="top_section">
-            <h2>contact <span>me</span></h2>
+            <h2>Contact <span>Me</span></h2>
         </div>
 
         <div class="container">
             <div class="soial_contact">
                 <h2>Follow Me </h2>
                 <div class="links">
-                    <a href="mailto:Example@mail.com"><i class="fa-solid fa-envelope"></i> example@mail.com</a>
-                    <a href="tel:+20123456789"><i class="fa-solid fa-phone"></i> 0123456789</a>
-                    <a href="https://www.facebook.com/houdareda.99" target="_blank"><i
-                            class="fa-brands fa-facebook-f"></i> FaceBook</a>
-                    <a href="#"><i class="fa-brands fa-twitter" target="_blank"></i> Twitter</a>
-                    <a href="#"><i class="fa-brands fa-instagram" target="_blank"></i> instagram</a>
+                    <a href="mailto:ahmedaltweel58@gmail.com"><i class="fa-solid fa-envelope"></i>
+                        ahmedaltweel58@gmail.com</a>
+
+                    <a href=" tel:+967783562268"><i class="fa-solid fa-phone"></i>+967783562268</a>
+                    <a href="https://www.facebook.com/AhmedAltweel" target="_blank"><i
+                            class="fa-brands fa-facebook-f"></i> Ahmed Altweel</a>
+                    <a href="#"><i class="fa-brands fa-twitter" target="_blank"></i> None</a>
+                    <a href="https://www.instagramcom/_v_al_l"><i class="fa-brands fa-instagram" target="_blank"></i>
+                        _v_al_l</a>
                 </div>
             </div>
 
-            <form action="">
+            <form action="https://api.sheetmonkey.io/form/c9hZrXihNW8x1EwLqax7XC" method="post">
                 <div class="input_form">
-                    <input type="text" placeholder="Full Name">
-                    <input type="text" placeholder="Email">
-                    <input type="text" placeholder="Mobile Number">
-                    <input type="text" placeholder="Subject">
+                    <input type="text" placeholder="Full Name" name='Full_name'>
+                    <input type="text" placeholder="Email" name="Email">
+                    <input type="text" placeholder="Mobile Number" name="Mobile_number">
+                    <input type="text" placeholder="Subject" name="Subject">
 
-                    <textarea name="" id="" rows="10" placeholder='Your Message Here'></textarea>
+                    <textarea name="message" id="" rows="10" placeholder='Your Message Here'></textarea>
                 </div>
-                <button class='button'>Send Message</button>
+                <button type="submit" class='button'>Send Message</button>
             </form>
         </div>
     </section>

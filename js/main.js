@@ -10,3 +10,10 @@ window.onscroll = function () {
         header.classList.remove('active')
     }
 }
+
+
+let nav_links = document.querySelector('#links')
+
+function open_close_menu() {
+    nav_links.classList.toggle('active')
+}
