@@ -709,7 +709,7 @@ header nav .links .logo {
 }
 
 
-@media (max-width:600px) {
+@media (max-width:700px) {
 
     .btn {
         padding: 12px 25px !important;
